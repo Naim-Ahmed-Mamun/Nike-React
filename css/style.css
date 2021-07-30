@@ -1,0 +1,237 @@
+/* global css start */
+:root{
+    --header-bg: #FFF9F4;
+    --main-color:#FA804C;
+    --Heading-color:#363958;
+    --paragraph-color:#3E3E3E;
+    --white-color:#fff;
+    --card-img-bg:#F1F1F1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+/* global css start */
+
+/* -------header start------------ */
+header{
+    background-color: var(--header-bg);
+}
+/* -------navbar---- */
+.logo{
+    width: 290px;
+    height: 40px;
+}
+.nav-item .nav-link {
+    margin-left: 57px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* -------navbar---- */
+
+/* hero section start */
+.hero_section{
+    padding: 100px 0;
+}
+.hero_content{
+    display: flex;
+    justify-content: flex-end;
+}
+.hero_content_inner h2{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    color: var(--Heading-color);
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+.hero_content_inner h2 span{
+    color: var(--main-color);
+}
+.hero_content_inner .hero_sm_text{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin-bottom: 24px;
+}
+.header_img img{
+    animation: header_img_animate 2s linear infinite alternate;
+}
+@keyframes header_img_animate {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+/* -------header end------------ */
+
+/* ----casual shoes start--- */
+.casual_shoes{
+    margin-bottom: 100px;
+}
+.section_title{
+    margin:50px 0;
+}
+.section_title h2{
+    color: var(--Heading-color);
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+}
+.card_img{
+    background-color: var(--card-img-bg);
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Heading-color);
+    margin-bottom: 15px;
+}
+.card-text{
+    color: var(--paragraph-color);
+}
+
+.card_img:hover .card-img-top{
+    transform: scale(1.2) skew(10deg);
+}
+.card-img-top {
+    height: 450px;
+    transition:all 0.5s linear;
+}
+.price h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--main-color);
+}
+/* ----casual shoes end--- */
+
+/* -----formal_shoes start------------ */
+.formal_shoes{
+    margin-bottom: 130px;
+}
+/* -----formal_shoes end------------ */
+
+/* ----feature section start-------- */
+#about {
+    padding-bottom: 100px;
+}
+.feature_icon{
+    width: 78px;
+    height: 82px;
+}
+.feature_item {
+    margin-bottom: 50px;
+}
+.feature_text h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.feature_text p{
+    color: var(--paragraph-color);
+    margin-bottom: 0px;
+}
+/* ----feature section start-------- */
+
+/* -----------discount section start------------- */
+.discount{
+    margin-bottom: 100px;
+    padding: 80px 0;
+    background-color: var(--main-color);
+}
+.discount_content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--Heading-color);
+    margin-bottom: 20px;
+}
+.discount_content h2 span{
+    color: #ff1818;
+}
+.discount_content p{
+    color: var(--paragraph-color);
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.discount_content input {
+    display: block;
+    padding: 10px 25px;
+    width: 70%;
+    background: #eae9e9;
+    border: none;
+    margin: auto;
+}
+.discount_content input:focus{
+    outline: none;
+}
+/* -----------discount section end------------- */
+
+/* ----------contact section start------------ */
+.contact{
+    margin-bottom: 100px;
+}
+.icon i{
+    display: inline-block;
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+/* ----------contact section end------------ */
+
+/* -----footer section start------- */
+.footer{
+    padding: 50px 0 20px;
+    background-color: var(--Heading-color);
+}
+.footer_item_inner h4{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: var(--white-color);
+}
+.quick_link a{
+    display: block;
+    color: var(--white-color);
+    margin-bottom: 15px;
+}
+
+.social_links a {
+    color: var(--white-color);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--main-color);
+    margin-right: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.social_links a i{
+    font-size: 18px;
+    line-height: 40px;
+}
+.download_app a {
+    display: block;
+}
+.google_paly{
+    margin-bottom: 25px;
+}
+/* -----footer section end------- */

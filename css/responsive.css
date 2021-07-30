@@ -1,0 +1,49 @@
+
+@media (min-width:768px) and (max-width:992px){
+    .hero_content_inner h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .feature_item {
+        margin-bottom: 30px;
+    }
+    .discount_content h2 {
+        font-size: 30px;
+    }
+    .break{
+        display: none !important;
+    }
+    .card-img-top {
+        height: 380px;
+    }
+}
+
+@media (max-width:768px){
+    .header_img{
+        order: 2;
+    }
+    .hero_content {
+        justify-content: flex-start;
+    }
+    .hero_content_inner .hero_sm_text {
+        max-width: 350px;
+    }
+}
+
+@media (max-width:576px) {
+    .logo {
+        width: 150px;
+        height: 30px;
+    }
+    
+    .hero_content_inner h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .card-img-top {
+        height: 350px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+}
